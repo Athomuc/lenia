@@ -1,0 +1,14 @@
+Array für "Spielfeld"  (board)
+kleinerers Array für Aktivierung  (act)
+=> Convolution
+
+setup (
+    board Größe festlegen,
+    act festlegen (array.py) => Größe, Form(Funktion)
+
+)
+
+step(
+    conv = Convolution(board, act)
+    board += 0.1 conv
+)
